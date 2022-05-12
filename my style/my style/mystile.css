@@ -1,0 +1,1301 @@
+body.body_page{
+    background-image:url("../MEDIA/4.jfif");        
+    background-repeat:no-repeat;        
+    background-size:cover;
+    background-attachment:fixed;
+}
+              /* header  */
+:root {
+--main-color:#345375;
+--page-color:#00728d;
+}                  
+.NAV-CONTINER{
+background-color: var(--main-color);
+color: aliceblue;
+   padding-right: 10px;
+   padding: 0;
+   margin: -8px;
+   text-decoration: none;
+ list-style:none ; 
+box-sizing: border-box;
+
+}
+
+nav.nav_of_head{
+width: 100%;
+margin: 0 auto;
+max-width: 1166px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 12vh;
+font-size: 1.6rem;   
+}
+
+nav  h3.LOGO {    /*Css : Head Of Company */
+font-size: 140%;
+border-width: 600px; 
+font-family:'Akshar', sans-serif ;
+font-weight: bold;
+color: #27ab83;
+flex: 2;
+padding-bottom:60px;
+padding-top:50px;
+margin-left: 0px;
+} 
+
+nav UL.navigation {
+display: flex;
+list-style-type:none ; 
+/* list-style-type:none ; this code to remove the circles in list  */
+justify-content: space-between;
+flex:2 ;    
+}
+
+nav ul.navigation  li a {
+color: aliceblue; 
+text-decoration-line:none;
+}
+
+nav .navigation >  li a:hover{
+color: #27ab83;
+}   
+
+.navigation .menu{
+position: relative;
+}
+
+.navigation .menu .submenu{
+position: absolute;
+top: 42px;
+left: 0;
+width: 220px;
+background-color: aliceblue;
+padding:10px;
+-webkit-box-shadow: 1px 6px 6px rgba(0, 0, 0, .5);
+-moz-box-shadow:1px 2px 2px rgba(0, 0, 0, .5);
+box-shadow: 1px 6px 6px rgba(0, 0, 0, .5);
+   display: none;   
+
+}
+
+.navigation .submenu li {
+padding: 10px;
+
+}
+
+.navigation .submenu  li a{
+color: #777;
+text-decoration: none;
+}
+
+.navigation .menu .submenu li a:hover {
+color: red;
+} 
+
+.navigation .submenu :before{
+content: '';
+border-left:6px solid transparent;
+border-right:6px solid transparent;
+border-bottom:6px solid #fff;
+height: 0;
+width: 0;
+position: absolute;
+left: 30px;
+top:-6px;
+}
+
+.navigation .menu :hover .submenu {
+display : block ;
+}
+
+     /* /Css: NAVIGATION/        */
+h2.contents-Y{
+     border:1px solid var(--page-color);
+     width:262px;
+     color:white;
+     background-color:var(--page-color);
+     margin-top:40px;
+     margin-bottom:0px;
+    /* margin-top:150px;/   /*itś use to fixed header with comment one*/
+     }
+     
+nav.navigation_content_page{
+     border:2px solid var(--page-color);
+     padding:5px;
+     width:250px;
+     line-height:40px;
+     height:130px;
+     margin-bottom:50px;
+ }
+    
+a.Link-nav{
+    display:block; 
+    text-decoration-line:none;
+    margin-left:2px;
+    font-size:20px;
+    font-weight:30px;
+ }
+
+  /* /Css: About France/ */
+article.aboutFrance{
+    background-color:var(--page-color);
+    margin:5px 10px;
+    padding:5px;                    
+}
+article.aboutFrance h1{
+   margin:5px;
+   padding:3px;
+    font-size:35px;
+   color:white;
+}
+
+article p.prag{
+    background-color:#EEE;
+    font-size:20px;
+    margin:10px 20px;                
+    line-height:30px;
+    padding:3px;
+    border-bottom:20px solid var(--page-color);
+    color:#263b8d;
+    text-transform:capitalize;
+    } 
+     
+  /* /Css: bottom To Page 2/   */
+button.to-page2,button.size-video,button.view-menuo{  
+   border-style:none;
+   background-color:var(--page-color);
+   border-radius:15px;
+   color:white;
+   padding:7px;      
+}
+
+button.size-video{
+   margin-left:15px;
+   margin-top:3px;
+}    
+             
+div.conten-video{
+   text-align:center;
+}                
+  /* /Css: About City of France/ */
+h1.suggestion{
+   font-size:35px;
+   text-align:center;
+   text-decoration:underline;
+   text-decoration-color:rgba(41, 55, 66, 0.5);   
+}
+
+h2.h2{
+  font-size:35px;
+  text-decoration-line:underline;
+  text-decoration-color:rgba(36, 141, 230, 0.7);
+  margin-bottom:0px;
+  color:rgb(36, 141, 230);
+  font-weight:35px;
+}
+
+p.Pcontry,span.features{
+ font-size:25px;
+ color:#263b8d;
+ line-height:30px;
+ text-transform:capitalize;
+ font-weight:900px;
+ height:370px;     
+}
+
+p.Pcontry{
+ background-color:rgba(220, 220, 220, 0.4);
+}
+
+span.features{
+ margin-left:40px;
+}
+p.Pcontry span.name-place{
+font-size:30px;
+color:black;    
+}
+.flag{
+margin-top:0px;
+}
+
+p.Pcontry img.photo{
+ float:right; 
+ clear:both;    
+ display:inline-block;
+ margin-top:12px;
+ margin-left:6px;
+} 
+
+img.photo-rest{   
+ height:400px;
+ width:30%;
+ margin-left:2.3%;
+ border:3px solid black;
+}
+
+div.photoes-rest{
+ background-color:var(--page-color);
+ padding:10px;
+ margin-top:10px;
+ margin-left:0px;
+ margin-right:0px;
+}
+
+p.Pcontry a{
+ text-decoration-line:none;
+ color:white;
+}
+
+    /* /Css : Suggestions for places in France/ */
+ul li.listOfGarden{
+ font-weight:40px;
+ line-height:30px;
+ font-size:25px;
+}
+    
+p.Pcontry span.offer-garden{
+color:#263b6d;
+font-size:25px;
+}  
+  
+h3.h3{
+ text-decoration-line:underline;
+ margin-bottom:0px;
+ font-size:23px;
+ color:#263b8d;
+}
+ /* Css : mineo */
+p.text-menuo{
+ font-size:25px; 
+ color:#263b8d;
+ line-height:30px;
+ text-transform:capitalize;
+ font-weight:300px;
+} 
+
+caption{
+color:#27ab83;
+font-size:25px;
+}
+
+table.menuo{    
+margin-left:14%;
+padding:0px;
+border-collapse:collapse;  
+display:none;
+}
+
+th.start{
+ background-color:var(--page-color);
+ color:white;
+ text-align:center;
+ padding:0px;
+ margin:0px; 
+ font-size:20px;  
+ border:2px solid var(--page-color);
+ width:70%;
+}
+
+th.th-menuo,td.td-menuo,th.th-menuo-price{
+ background-color:rgba(220, 220, 220, 0.5);
+ font-size:20px;
+ font-weight:50px;
+ margin:0px;
+ padding:5px;
+ border:2px solid var(--page-color);
+}
+
+th.th-menuo-price{
+text-align:left;
+}
+
+::selection{
+background-color:#ddd;
+color:white;
+}
+
+/*-------------------------------------------------Css: my project 2 -------------------------------------- */
+
+body.body2{
+background-image:url("../MEDIA/12.jfif");
+background-repeat:no-repeat;        
+background-size:cover;
+background-attachment:fixed;
+}
+
+h1.offerplace{
+font-size:30px;
+text-decoration-line:underline;
+/* margin-top:150px;/   /*itś use to fixed header with comment one*/
+}
+
+article h1.offer{
+border:2px solid var(--page-color);
+background-color:var(--page-color);
+color:white; 
+margin:0px;
+padding:5px;
+font-size:25px;
+}
+
+article ul li{
+font-size:20px;
+font-weight:400px;
+line-height:30px;
+margin-left:0px;    
+}
+
+article ul.ul-offer{
+background-color:rgba(220, 220, 220, 0.5);
+border:2px solid var(--page-color) ;
+border-top-color:5edfff;
+margin-top:0px;
+}
+
+h1.name{
+font-size:30px;
+text-decoration-line:underline;       
+}
+
+article ul.none{
+font-size:20px;
+font-weight:60px;
+margin-top:0px;
+margin-left:90px;
+}
+
+li.ul-li-offer{
+font-size:22px;
+font-weight:200px;
+}
+span.rel-price{
+ color:blue;
+}
+
+/* /---------------------------------------------- About Us: div of Person ------------------------------------------/ */
+
+body.body3{
+background-image:url("../MEDIA/10.jfif");
+background-repeat:no-repeat;        
+background-size:cover;
+background-attachment:fixed;
+}
+
+div.big-div {
+ border-radius:22px ;
+ margin:70px 30px;
+ background-color: RGB(124, 56, 255);
+ width:350px;
+ height:400px;
+ display:inline-block;
+margin-left:60PX ;
+}
+
+div.big-div {
+background-color:var(--page-color);
+}
+
+ .person {   
+  width:200px;
+  height:200px;
+  margin:30px 75px -70px ;
+  border:4px solid RGB(255, 255, 255);
+  border-radius:170px;
+  outline:4px solid #00828d; 
+}
+
+div.content-person {
+  background-color:Rgb(250, 250, 250);
+  width:inherit;
+  height:200px;
+  text-align:center;
+  padding-top:80px;
+  text-transform:capitalize;
+  border-radius:0px 0px 22px 22px;
+}
+
+p.button{
+ font-size:22px;
+ text-transform:capitalize;
+ border:2px solid var(--page-color);
+ border-radius:40px;
+ background-color: var(--page-color);
+ color:white;
+ display:inline;
+ width:50px;
+ margin:30px;
+ padding:10px;
+ text-align:lift;	 
+}
+
+p.button:hover{
+background-color: #000000;
+color: white;
+border:2px solid black;
+}
+a.link-person{
+ text-decoration:none;
+ color:white;
+}
+div.about-name{ 
+ background-color:#Eee;
+ width:20%;
+ height:70px;
+ margin:10px;
+ padding-top:45px;
+ font-size:23px;
+ font-weight:20px;
+ text-align:center;
+ display:inline;
+}
+
+.about-content p{
+ display:inline;
+ font-size:18px;
+ font-weight:25px;    
+}
+
+table.table-yussef,table.table-nada{     
+ margin-left:10%;
+ margin-right:10%;
+ padding:5pxpx;
+ border-collapse:collapse;
+ display:none;       
+}
+
+tr.header-table{
+border:2px solid var(--page-color);
+padding:15px;
+margin:5px;
+}
+
+th.th-person1,th.th-person2,th.th-person3,th.th-person4,th.th-person5{
+background-color:var(--page-color);
+font-size:20px;
+font-weight:20px;
+margin:0px;
+padding:15px;
+border:1px solid #Eee;
+color:white;
+text-align:left;         
+}
+
+th.th-person1,th.th-person2,th.th-person3,th.th-person4,th.th-person5,th.th-person6{
+width:250px;
+}
+
+td.td-person{
+ background-color:RGBA(230,230,230,0.5);
+ font-size:18px;
+ font-weight:50px;
+ margin:0px;
+ padding:5px;
+ border:2px solid #ccc;
+}
+           /* -----------------NADA MOHAMED AZIZ--------------- */
+
+ @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Akshar:wght@300;400&family=Roboto:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ .all{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    background-color: 345375;
+} 
+ 
+h1.h1n {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: #f0f4f8;
+  }
+  
+  h1 span {
+    color: #27ab83;
+  }
+  
+  /* h2  {
+    color: #243b53;
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  } */
+  
+  h3 {
+    color: #2b4561;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+  h4 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #d5d5d5;
+  }
+  
+  /* p {
+    font-size: 1.6rem;
+    color: #345375;
+    line-height: 2;
+  } */
+  
+  /* Nav Section */
+  .nav-container {
+    background: #334e68;
+    color: #f0f4f8;
+  }
+  
+  .navn {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    font-size: 1.6rem;
+  }
+  
+  
+  .navn .logo {
+    font-family: "Kufam", cursive;
+    font-weight: bold;
+    flex: 3;
+    color:#27ab83;
+    margin-top: 4px;
+  }
+  
+  .navn ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    flex: 3.2;
+  }
+  
+  .navn ul li a {
+    color: #f0f4f8;
+    text-decoration: none;
+  }
+  .navn .navigation  li a:hover{
+    color: #27ab83;
+  } 
+.title-booking{
+    padding: 100px 200px;
+    color: azure;
+     padding-top: 10px;
+    padding-bottom: 10px; 
+
+}
+.book{
+    
+   
+    /* height: 50px;
+    max-width: 1280px; */
+    display: flex;
+    justify-content: center;
+    background-color:#345375 ;
+
+    /* align-items: center; */
+    
+    
+}
+
+.form{
+  width: 700px; 
+   background-color:#345375;
+  background-size: contain;
+
+
+}
+.form-text{
+    text-align: center;
+    margin: 40px,0;
+
+}
+.form-text h1 span img {
+    margin: 0 10px;
+
+}
+.form-text h1  {
+    color: #fff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 50px;
+    /* margin-bottom: 100px; */
+    text-shadow: 1px 1px 2px #345375, 0 0 25px #27ab83, 0 0 5px #07402f;
+
+}
+.form-text p {
+    color: #fff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+   
+ 
+
+}
+.main-form {
+    text-align: center;
+}
+
+.main-form div{
+    margin: 10px 24px;
+    display: inline-block;
+     width: 300px; 
+}
+.main-form div input{
+    width: 300px;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px  solid #27ab83;
+    font-size: 20px;
+    color: #fff;
+    outline: none; 
+    padding: 3px  0 3px 10px  ;
+    margin-top: 10px;
+
+}
+.main-form div select{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 300px;
+    background: none;
+    border: 1px  solid #27ab83;
+    font-size: 20px;
+     color: #fff;   
+    padding: 3px  0 3px 10px  ;
+    margin-top: 10px;
+
+}
+
+.main-form div span{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 300px;
+     color: #fff; 
+    font-size: PX;
+}
+#submit{
+    width: 100%;
+    text-align: center;
+
+}
+#submit input{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+  background-color:   #27ab83;
+  
+   color: black;
+   transition: all;
+}
+#submit input:hover{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
+  background-color:  rgb(16, 16, 16) ;
+   color: #fff;
+}
+#submit input:active{
+    font-size: 19px;
+  background-color:  rgb(28, 86, 42) ;
+   color: #fff;
+}
+.print{
+    border-radius:3px ;
+    margin-left: 50px;
+     margin-bottom: 3px; 
+    width:80px ;
+    font-family: 'Akaya Telivigala', cursive;
+    color: rgb(20, 19, 19);
+    background-color:#27ab83 ;
+    
+
+    
+}
+
+.footer {
+    background-color: #243b53 ;
+    color:rgb(200, 187, 190) ;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    /* margin-left: 30px; */
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: rgb(216, 201, 204);
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+/*------------------ nada home page----------- */
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Tajawal:wght@400;700&display=swap");
+
+/* .all2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.html {
+  scroll-behavior: smooth;
+} 
+.body {
+  font-family: "Tajawal", sans-serif;
+  background: #d9e2ec;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+ .h1n {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #f0f4f8;
+}
+
+.h1n span {
+  color: #27ab83;
+}
+
+.h2n {
+  color: #243b53;
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.h3n {
+  color: #2b4561;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 1px #5a766e;
+}
+.h4n{
+  font-size: 2rem;
+  width: 40%;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #d5d5d5;
+}
+
+.pn {
+  font-size: 1.6rem;
+  color: #345375;
+  line-height: 2;
+} 
+
+
+/* Nav Section */
+.nav-container {
+  background: #334e68;
+  color: #f0f4f8;
+}
+
+.nav_of_head{
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 1.6rem;
+}
+h3 .nav_of_head .logo{
+
+    font-size: 140%;
+    border-width: 600px; 
+    font-family:'Akshar', sans-serif ;
+    font-weight: bold;
+    color: #27ab83;
+    flex: 2;
+    padding-bottom:60px;
+    padding-top:50px;
+    margin-left: 2px ;
+    
+
+}
+/* .nav_of_head .logo {
+  font-family: "Kufam", cursive;
+  font-weight: bold;
+  color: #27ab83;
+   font-size: 20px; 
+} */
+
+.nav_of_head ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex: 3.2;
+}
+
+.nav_of_head ul li a {
+  color: #f0f4f8;
+  text-decoration: none;
+}
+ 
+.nav_of_head  li a:hover{
+  color: #27ab83;
+}  
+
+
+/* Hero Section */
+
+.hero {
+  height: 90vh;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+  background-image: linear-gradient(
+      90deg,
+      rgba(51, 78, 104, 0.2) 0%,
+      rgba(20, 63, 92, 0.8) 20%
+    ),
+    url("../media/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg");
+    background-repeat: no-repeat;
+   animation: herobg 3s ease-in;
+   background-position: center;
+}
+
+.content {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90vh;
+}
+
+.btn1 {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.75rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #243b53;
+  background: #27ab83;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #239673;
+}
+
+.btn1:active {
+  scale: 0.98;
+}
+
+/* Qualities Section */
+#qualities {
+  width: 90%;
+  max-width: 1366px;
+  margin: 4rem auto;
+  height: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.qualities-container {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding-top: 5rem;
+}
+
+.quality {
+  background: #bcccdc;
+  padding: 4rem 0;
+  width: 30%;
+  border:  10px solid #243b53;
+}
+
+.quality p {
+  text-align: center;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* About us */
+
+.about-container {
+  background: #334e68;
+  padding: 100PX;
+}
+.about-us {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2 {
+  color: #d9d9d9;
+}
+.about-content p {
+  margin-top: 1rem;
+  width: 80%;
+  color: #d5d5d5;
+}
+
+
+/*  countries */
+.countries{
+
+ width: 800px;
+ border-bottom: 20px solid #334e68 ;
+ box-sizing: border-box;
+ border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 280px;
+
+}
+.countries h2.h2n{
+  margin-top:30px;
+  color: #d0d7d0;
+  background: #334e68;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.countries li  a{
+  list-style: none;
+  width: 100%;
+  color:black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+
+}
+.countries ul.count-menu{
+  position: relative;
+  background-color:#334e68;
+  margin-bottom: 0px;
+}
+.countries ul li {
+
+  list-style: none;
+  padding: 10px;
+  color: #d5d5d5;
+  width: 92%;
+  background: #f4f7f9 ;
+  box-shadow: 0 5px 25px (0,0,0,.1);
+}
+.countries ul:hover li {
+  opacity:0.2;
+}
+
+.countries ul li:hover{
+  opacity:1;
+  transform: scale(1.1);
+  z-index:100;
+  background:#d0d8de ;
+  box-shadow: 0 5px 25px (0,0,0,.2);
+  
+}
+.countries ul li span{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 30px;
+  background:#334e68 ;
+  color:#fff;
+  display:inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+/* cards offer */
+
+.offers{
+  width: 700%;
+}
+.to-hide{
+  text-align: center;
+  background-color: #345375; 
+  color: rgb(10, 18, 24);
+  margin: 2% 3%;
+  right: 24%;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000000;
+  display: none;
+ 
+}
+.hiden-img img {
+  height: 30vh;
+  display: block;
+  float:left;
+  margin-bottom: 15px;
+  position: relative;
+  bottom: 20px;
+  right: -300px;
+}
+.title {
+  text-shadow: 1px 1px 2px #345375, 0 0 25px #27ab83, 0 0 5px #07402f;
+  color: #fff;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.hiden-pargraph{
+  font-family: 'Akaya Telivigala', cursive;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 50px;
+  position: relative;
+  right: 50px;
+  bottom: 50px;
+
+
+}
+.offer-p{
+  margin-left: 4px;
+  font-size: 40px;
+  width: 40%;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #211f1f;
+  margin-top:5px;
+}
+.offer-img img{
+  width: 200px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+}
+.main-offer{
+  margin-left: 500px;
+  color: #2b4561;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  text-shadow: 2px 1px #5a766e;
+ 
+
+}
+.book-know{
+
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.75rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #243b53;
+  background: #27ab83;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 20px;
+  position: relative;
+  bottom: -30px;
+  
+}
+
+
+
+
+/* Contact us */
+
+.contact-us {
+  width: 90%;
+  max-width: 1366px;
+  margin: 5rem auto 0 auto;
+  height: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.form-h {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  width: 100%;
+  align-items: center;
+}
+
+.form-h .btn {
+  width: 100px;
+  text-align: center;
+}
+
+label,
+input,
+textarea,
+.btn {
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 1.5rem;
+}
+
+input,
+textarea {
+  width: 80%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.75rem 2rem;
+}
+.contact-us {
+  text-align: center;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+/* slider */
+.slider-container{
+
+  box-sizing: border-box;
+  margin: 80px auto;
+  width: 800px;
+  height: 250px;
+  position: relative;
+}
+
+.slider-container img{
+  position: absolute;
+  opacity: 0;
+  width: 800px;
+  height: 250px;
+  /* 
+  علشان تعمل fade ومتتنقلش على طول */
+  transition: opacity 1s;
+  z-index:1;
+
+}
+/* الصور الى هتظهر */
+.slider-container img.active{
+  opacity: 1;
+
+}
+.slide-number{
+ position: absolute ;
+ left:350px;
+ top:10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  z-index: 2;/*  علشان يكون فوق طبقة الصورة */
+  border-radius: 6px;
+}
+.slider-controls{
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.slider-controls .prev,
+.slider-controls .next{
+  background-color:#243b53;
+  color: #fff;
+  font-size:16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  user-select: none;
+  width: 20%;
+}
+.slider-controls .prev{
+  float: left;
+}
+.slider-controls .next{
+  float: right;
+}
+.slider-controls .prev.disabled,
+.slider-controls .next.disabled {
+  background-color: #243b53;
+  cursor: no-drop;
+}
+.slider-controls .indicators{
+  width: 60%;
+  float: left;
+}
+.slider-controls .indicators ul{
+list-style: none;
+margin: 0;
+text-align: center;
+}
+.slider-controls .indicators ul li{
+  display: inline-block;
+  background-color: #f6f6f6f6;
+  color: #333;
+  font-weight: bold;
+  height: 28px;
+  width: 28px;
+  border-radius: 4px;
+  margin: 0 2px;
+  line-height: 28px;
+  cursor: pointer;
+
+
+}
+.slider-controls .indicators ul li.active{
+  background-color:#243b53;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #243b53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+footer p {
+  color: #d9d9d9;
+}

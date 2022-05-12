@@ -1,0 +1,3227 @@
+/*nada el-saied start*/
+#rooma {
+  justify-content: center;
+  width: 245px;
+  height: 300px;
+
+  background: #aaaaaa;
+}
+
+#rooma li {
+  list-style: none;
+}
+
+.image {
+  width: 400px;
+  text-align: center;
+  height: auto;
+}
+
+.trip {
+  font-size: 40px;
+  text-align: center;
+}
+
+div {
+  flex-direction: row;
+}
+
+body {
+  background-color: white;
+  padding: 0px 0 0 0;
+  margin: 0;
+}
+
+.navbar {
+  background: #000000;
+
+}
+
+.navbar ul li {
+  padding-left: 20px;
+  font-size: 23px;
+}
+
+.navbar ul li a {
+  color: white !important;
+}
+
+.navbar ul li a:hover {
+  color: #27ab83 !important;
+}
+
+.dropdown-menu {
+  background: black;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color: #27ab83;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #27ab83 !important;
+}
+
+.video {
+  align-items: left;
+  border-width: 10px;
+  border-color: white red white green;
+  border-style: solid;
+}
+
+.button-trafeh {
+  background: transparent;
+  border: 1px solid #4c40fa;
+  border-radius: 5px;
+  color: #4c40fa;
+}
+
+.base {
+  position: relative;
+
+}
+
+.on-base {
+  position: absolute;
+  z-index: 888;
+  top: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(22, 22, 22, 0.7);
+  height: 100%;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.button-khalej1 {
+  background-color: #fff;
+  color: #ffc74f;
+}
+
+.stars {
+  width: 60%;
+  margin: 2rem 1rem;
+}
+
+.button-khalej2 {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+
+}
+
+.button-khalej2:hover {
+  color: black !important;
+}
+
+.base-tran {
+  position: relative;
+}
+
+.header-tran {
+  position: absolute;
+  z-index: 888;
+  bottom: 0;
+  background: rgba(22, 22, 22, 0.7);
+  height: 20%;
+  width: 100%;
+}
+
+.starss {
+  margin: 3%;
+}
+
+.button-card button {
+  background-color: #564af5;
+  width: 100%;
+}
+
+.IMAGES {
+  height: 180px;
+  width: 305px;
+}
+
+.IMAGES3 {
+  height: 163px;
+  width: 298px;
+}
+
+.IMAGES2 {
+  width: 600px;
+  height: 340px;
+}
+
+.IMAGES4 {
+  height: 160px;
+  width: 305px;
+}
+
+.pa {
+  color: black;
+  font-size: 25px;
+}
+
+.hh1 {
+  color: #27ab83;
+}
+
+.images10 {
+  height: 200px;
+  width: 305px;
+}
+
+#hh1 #hh2 #hh3 #hh4 #hh5 #hh6 {
+  color: #27ab83;
+}
+
+.bodyN {
+  padding: 20px;
+}
+
+/*nada el-saied end*/
+
+/*nourhan start pages*/
+.nourhan {
+  background-image: url(" ../media/ورق بردى.jfif");
+
+  direction: rtl;
+}
+
+.nourhanheader {
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  background-color: navy;
+  width: 1070;
+  height: 60px;
+  color: white;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  position: sticky;
+  box-shadow: 5px 3px 30px 5px rgb(28, 191, 232) inset, 5px 5px 100px 15px rgb(1, 71, 88) inset, 5px 5px 30px 20px rgb(1, 71, 88);
+}
+
+.nourhanheader .nourhanh3 {
+  padding: 0px 0px 0px 100px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 10px;
+}
+
+
+.nourhanul {
+  list-style: none;
+  display: flex;
+}
+
+.nourhanul a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nourhanul .nourhanli {
+  color: white;
+  padding: 0px 25px 0px 25px;
+  text-align: center;
+}
+
+.nourhanul .nourhanli :hover {
+  background-color: rgb(28, 191, 232);
+  color: black;
+}
+
+.nourhanheader span {
+  color: white;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.nourhanheader span:hover {
+  color: black
+}
+
+.nourhanheader .nourhanmenu1 {
+  background-color: navy;
+  width: 300px;
+  height: 0px;
+  overflow-y: hidden;
+  transition: 1s;
+  position: absolute;
+}
+
+.nourhanheader .nourhanmenu1 a {
+  text-decoration: none;
+  color: lightcyan;
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+.nourhanheader .nourhanmenu1 a:hover {
+  background-color: rgb(28, 191, 232);
+  color: black;
+}
+
+.nourhanheader .nourhanmenu1 .nourhandropdown .nourhandropdowncontact {
+  background-color: navy;
+  width: 300px;
+  height: 0px;
+  overflow-y: hidden;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.nourhanheader .nourhanmenu1 a span {
+  font-size: 15px;
+}
+
+
+.nourhanhead h1 {
+  text-align: center;
+  display: inline;
+}
+
+.nourhanhead img {
+  vertical-align: middle;
+}
+
+.nourhanth {
+  color: navy;
+}
+
+.nourhanmap {
+  display: inline;
+}
+
+.nourhantext1,
+.nourhantext5 {
+  text-align: center;
+  color: navy;
+}
+
+.nourhantext3 {
+  color: navy;
+}
+
+.nourhantext6 u {
+
+  color: navy;
+}
+
+
+
+.nourhantable {
+  width: 500%;
+  height: 200;
+}
+
+.nourhanmap {
+  display: inline;
+}
+
+.nourhanphoto-text3-and-4 img {
+  width: 510px;
+  height: 200px;
+  display: inline;
+}
+
+.nourhanlink a {
+  text-decoration: none;
+  background-color: rgb(28, 191, 232);
+  color: black;
+  border-radius: 30px;
+  padding: 2px;
+  display: inline-block;
+}
+
+
+.nourhantable {
+  width: 50%;
+  border: 4px navy solid;
+  border-spacing: 4px;
+  display: inline-table;
+}
+
+.nourhantable .nourhantd {
+  border: 4px rgb(28, 191, 232) solid;
+  border-spacing: 2px;
+  padding: 5px;
+}
+
+.nourhantable .nourhanth {
+  border: 4px rgb(28, 191, 232) solid;
+  border-spacing: 2px;
+  padding: 5px;
+}
+
+.nourhanmap {
+  vertical-align: top;
+}
+
+
+b u {
+  color: navy;
+}
+
+.nourhanhotels,
+.nourhanrestaurants {
+  display: flex;
+
+}
+
+.nourhanhotels .nourhanstar span,
+.nourhanrestaurants .nourhanstar span {
+  color: darkorange;
+}
+
+.nourhanhotels #nourhans,
+.nourhanrestaurants #nourhans {
+  color: gray;
+}
+
+p #nourhanwifi {
+  font-size: 25;
+  color: rgb(28, 191, 232);
+}
+
+p #nourhanclock {
+  font-size: 25;
+  color: rgb(28, 191, 232);
+  text-decoration: none;
+}
+
+p #nourhanlocation {
+  font-size: 25;
+  color: rgb(28, 191, 232);
+}
+
+.nourhanc1 {
+  border: 2px solid beige;
+  width: 200px;
+  height: 430px;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.nourhanc1:hover {
+  border-color: navy;
+  box-shadow: 5px 5px 20px 10px lightskyblue;
+}
+
+.nourhanc1 img {
+  width: 190px;
+  height: 150px;
+}
+
+.nourhanvideo {
+  width: 1030;
+  height: 200;
+  border: 5px navy solid;
+  border-radius: 50px;
+}
+
+.nourhanfooter {
+  background-color: navy;
+  text-align: center;
+  display: block;
+  color: white;
+  height: 350px;
+  padding: 15px;
+}
+
+.nourhanfooter .nourhanbutton a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  background-color: navy;
+  color: white;
+  border: 1px white solid;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+}
+
+.nourhanfooter .nourhanbutton a:hover {
+  background-color: rgb(28, 191, 232);
+  color: black;
+  border: 2px black solid;
+}
+
+/*nourhan end pages*/
+
+
+/* nada khadir start*/
+/* @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800&display=swap");
+
+.nadakhader {
+  margin: 0px;
+}
+
+body {
+  background-color: #76aae3;
+
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.NAV-CONTINER {
+  background-color: #345375;
+  color: aliceblue;
+  padding-right: 2px;
+
+}
+
+.NAV-CONTINER {
+  padding-bottom: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 90%;
+  height: 10%;
+  margin: 0px;
+  max-width: 1166px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 1.6rem;
+}
+
+nav h3.LOGO {
+  font-size: 300%;
+  border-width: 600px;
+  font-family: "akshar", sans-serif;
+  font-weight: bold;
+  color: #27ab83;
+  flex: 3;
+
+}
+
+.nav ul {
+  flex: 3.2;
+}
+
+nav UL.navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex: 3;
+
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav .navigation li a:hover {
+  color: #27ab83;
+}
+
+.navigation .menu {
+  position: relative;
+}
+
+.navigation .menu .submenu {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 220px;
+  background-color: aliceblue;
+  padding: 2px;
+  -webkit-box-shadow: 1px 6px 6px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
+  box-shadow: 1px 6px 6px rgba(0, 0, 0, .5);
+  display: none;
+  z-index: 1;
+}
+
+.navigation .submenu li {
+  padding: 10px;
+}
+
+.navigation .menu .submenu li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.navigation .menu .submenu li a:hover {
+  color: red;
+}
+
+.navigation .submenu::before {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 30px;
+  top: -6px;
+}
+
+.navigation .menu:hover .submenu {
+  display: block;
+}
+
+.main-btn {
+  color: white;
+  background-color: #05284c;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #02172c;
+  transform: scale(1.1);
+}
+
+.header {
+  width: 100%;
+  height: 600px;
+  background-image: url(./images/143-111144-germany-opens-cancel-travel-warning-31-countries_700x400.jpg);
+  background-size: cover;
+  position: relative;
+  bottom: 23px;
+  min-height: 110vh;
+}
+
+.h-page2 {
+  width: 100%;
+  height: 600px;
+  background-image: url(./images/GLS_Sprachzentrum__Oderberger_Hotel.01.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+.opacity {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.header p {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  border-bottom: solid red;
+}
+
+.h-page2 p {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  border-bottom: solid red;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.about p {
+  width: 45%;
+  font-family: sans-serif;
+  font-size: 20px;
+  float: right;
+  direction: rtl;
+}
+
+.about p span {
+  display: block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color: #0e0045;
+  border-bottom: solid thick rgb(29, 6, 52);
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.about img {
+  width: 25%;
+  height: 250px;
+  margin-right: 10px;
+  box-shadow: 8px 0 15px rgba(0, 0, 0, 0.442);
+}
+
+.about audio {
+  margin: 4%;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.473);
+  border-radius: 50%;
+}
+
+.about video {
+  width: 35%;
+  height: 25%;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.473);
+}
+
+.poster {
+  width: 100%;
+  height: 600px;
+  background-image: url(./images/مدينة_برلين_في_ألمانيا.jpg);
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.poster p {
+  position: absolute;
+  top: 50px;
+  right: 30%;
+  color: white;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  border-bottom: solid red;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #02172c;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: inline-flex;
+}
+
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  direction: rtl;
+  padding: 1%;
+  margin: 15px;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+  border-radius: 10px;
+  transition: 0.7s ease;
+
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  color: #345375;
+  font-size: 8em;
+  text-align: center;
+
+}
+
+.info {
+  text-align: center;
+
+}
+
+.info h3 {
+  color: #02172c;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.info a {
+  color: #05284c;
+}
+
+.info a:hover {
+  color: #27ab83;
+}
+
+.info img {
+  width: 21.25em;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #71d6b8cf;
+}
+
+.btn-finish {
+  border: 0;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px 60px;
+  cursor: pointer;
+}
+
+.card-2 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 15%);
+  padding: 1em;
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  text-align: center;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  transition: all .55;
+  opacity: 0;
+}
+
+.card-2 .open {
+  opacity: 1;
+  top: 50%;
+}
+
+.card-2 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -50px;
+}
+
+.card-2 h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-2 .btn-open {
+  width: 100%;
+  border-radius: 50px;
+  border: 0;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #777;
+  color: #05284c;
+  cursor: pointer;
+}
+
+button {
+  float: right;
+  border: 0.2px solid #777;
+  border-radius: 5px;
+}
+
+.gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gallery h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--main-color);
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.gallery .images-box {
+  text-align: center;
+}
+
+.imge-in-box {
+  width: 300px;
+  height: 200px;
+  transition: 00.7s;
+}
+
+.imge-in-box:hover {
+  transform: scale(1.1);
+
+}
+
+.gallery .images-box img {
+  width: 200px;
+  padding: 3px;
+  background-color: #f6f6f6;
+  border: 1px solid #ccc;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.popup-overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.popup-b0x {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1001;
+}
+
+.popup-b0x img {
+  max-width: 100%;
+}
+
+#showcard {
+  display: none;
+} 
+
+/* nada khadir end*/
+
+
+/* nadia start*/
+/*  first page */
+.zoo h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 20px;
+
+}
+
+
+
+.monster p {
+  color: aliceblue;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 18px;
+  /*     16px;      */
+  letter-spacing: normal;
+  line-height: 2;
+  word-spacing: 3px;
+  font-style: italic;
+  font-weight: 500px;
+
+}
+
+
+
+
+.attack h2 {
+  color: aliceblue;
+  margin-bottom: 10px;
+  margin-left: 50px
+}
+
+
+.army video {
+  width: 400px;
+  height: 400px;
+  float: right;
+  margin-right: -30px;
+  margin-top: 50px;
+}
+
+
+.roqa h2 {
+
+  font-size: 50px;
+  padding: 250px 20px 0px;
+  margin-left: -30px;
+  color: aliceblue;
+
+}
+
+
+span {
+  color: #0088a9;
+  /* destination  */
+
+}
+
+
+
+.chair p {
+  background-color: rgba(0, 136, 169, 0.5);
+  margin-top: ;
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+
+
+}
+
+.la h2 {
+  font-size: 50px;
+  padding: 30px 20px 0px;
+  margin-left: -30px;
+  color: aliceblue;
+
+}
+
+.hair p {
+  background-color: rgba(0, 136, 169, 0.5);
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+
+
+}
+
+
+.le h2 {
+
+  font-size: 50px;
+  padding: 30px 20px 0px;
+  margin-left: -30px;
+  color: aliceblue;
+
+
+}
+
+.cair p {
+
+  background-color: rgba(0, 136, 169, 0.5);
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+}
+
+
+
+.lolo h2 {
+  font-size: 50px;
+  padding: 50px 20px 0px;
+  margin-left: -30px;
+  color: aliceblue;
+
+}
+
+
+.fresh p {
+  background-color: rgba(0, 136, 169, 0.5);
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  margin-bottom: 50px;
+}
+
+
+body.mega {
+  /* background-color:white;  */
+  background-image: url(../media/gettyimages-514325748-2048x2048.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px;
+}
+
+
+
+
+
+li,
+a,
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: aliceblue;
+  /*    #0088a9;  */
+  text-decoration: none;
+
+
+
+}
+
+
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+
+
+}
+
+
+
+.logo {
+
+  cursor: pointer;
+
+
+}
+
+
+.nav_links {
+
+  list-style: none;
+
+
+}
+
+.nav_links li {
+
+  display: inline-block;
+  padding: 0px 20px;
+
+
+}
+
+.nav_links li a {
+
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+  color: aliceblue;
+
+
+
+}
+
+.nav_links li a :hover {
+
+
+  background-color: #0088a9;
+
+}
+
+button {
+
+
+  padding: 9px 25px;
+  background-color: rgba(176, 188, 191, 0.8);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+button:hover {
+
+  background-color: rgba(0, 136, 169, 1);
+}
+
+
+
+/* footeer   */
+
+
+
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #002e63;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-left: -50px;
+  padding: 30px 70px 0px 0px;
+  margin-bottom: -50px;
+
+}
+
+
+/*  first   page */
+
+
+
+
+.amira h1 {
+  color: skyblue;
+  padding: 50px 30px 30px;
+}
+
+div {
+  background-size: 0%;
+}
+
+
+body.may {
+  background-color: #e7feff;
+
+}
+
+
+.china h1 {
+  /*        Things you will know about Turkey     */
+  color: #1793ae;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+
+.function h1 {
+  /* resurants  */
+
+  color: #C71585;
+  font-size: 30px;
+  align-items: center;
+  padding: 30px 45%;
+  margin-left: -30px;
+  margin-right: -30px;
+  text-decoration: none;
+  background-color: #b1a99e;
+
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+.recursion h1 {
+  /* hotels   */
+  color: #800020;
+  background-color: #89CFF0;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 45%;
+  font-size: 30px;
+  margin: -33px;
+
+}
+
+.queen h1 {
+  /*  foodes   */
+  color: #000080;
+  background-color: #B57EDC;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 45%;
+  font-size: 20px;
+  margin-left: -30px;
+  margin-right: -30px;
+
+
+
+
+
+}
+
+.leader h1 {
+  /*    Attractions  */
+
+  color: #8E4585;
+  background-color: #CCCCFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 30px 45%;
+  font-size: 30px;
+  margin: -33px;
+
+
+
+}
+
+
+
+
+.nadia h1 {
+  /*  hoteles color   */
+  color: rgb(107, 85, 149);
+  margin-top: 50px;
+  padding: 30px 30px 10px;
+}
+
+.shreen h2 {
+  color: #9f359f;
+  padding: 10px 30px 5px;
+
+}
+
+.call h1 {
+  /* foodes in turkey color */
+  color: rgb(128, 60, 83);
+  padding: 30px 30px 10px;
+}
+
+
+.tintin h1 {
+  /*  Best resturants color */
+  color: rgb(92, 58, 58);
+  margin-top: 200px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+
+}
+
+.banda h2 {
+  color: #8FBC8F;
+  /*  1. Four Seasons Hotel Istanbul at Sultanah      */
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.win h2 {
+  color: #B87333;
+  /*      2. Romance Istanbul Hotel             */
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+}
+
+
+.lose h2 {
+  color: #4B0082;
+  /*  3. Raffles Istanbul  hotel        */
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+}
+
+.hero h2 {
+  color: #808000;
+  /*  4. Hotel Amira Istanbul         */
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.chess h2 {
+  /*      types foodes in turkey   */
+  color: #40826D;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+
+}
+
+
+
+
+.huda img {
+  /* AYa sofia  دا بتاع الصورة الاولي  */
+  margin-left: 30px;
+  margin-top: 20px;
+  /*   دلوقتيي علشان اظبط المسافات نوعا ما لاغيت بوتمم الصورة اللي فوق وزودت توب الصورة اللي تحت */
+  margin-right: 30px;
+  /*   margin-bottom:30px;  */
+
+  padding-bottom: 30px;
+  float: right;
+  width: 600px;
+  height: 400px;
+}
+
+.shouneez h2 {
+  color: #007FFF;
+
+
+}
+
+
+
+.hum p {
+  padding: 50px 30px;
+  /*        براجراف Aya sofia     */
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  color: #000080;
+
+
+}
+
+
+
+.science img {
+  /*       Ephesus   صورة        */
+  margin-left: 30px;
+  /*  margin-top:50px;         /* 20*/
+  margin-right: 30px;
+  /*   margin-bottom:50px;*/
+  padding-top: 50px;
+  padding-bottom: 30px;
+  float: right;
+  width: 600px;
+  height: 400px;
+}
+
+.mena h2 {
+  color: #FA8072;
+
+
+}
+
+
+
+/*           Ephesus  براجراف     */
+.noda p {
+  padding: 70px 30px;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  color: #bd382a;
+
+}
+
+
+.computer img {
+  /*   Cappadocia  صورة     */
+  margin-left: 30px;
+  /*   margin-top:20px;  /* 20*/
+  margin-right: 30px;
+  /*     margin-bottom:50px; now*/
+  padding-top: 50px;
+  padding-bottom: 30px;
+  float: right;
+  width: 600px;
+  height: 400px;
+}
+
+.hager h2 {
+  color: #8E4585;
+
+
+}
+
+.anime p {
+  /*        Cappadocia براجراف   */
+  padding: 70px 30px;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  color: #8E4585;
+
+}
+
+.we img {
+  /*     Ölüdeniz     صورة        */
+  margin-left: 30px;
+  /*  margin-top:20px;  */
+  margin-right: 30px;
+  /*    margin-bottom:30px;*/
+
+  padding-bottom: 30px;
+  float: right;
+  width: 600px;
+  height: 400px;
+}
+
+.doaa h2 {
+  color: #36a1a1;
+
+}
+
+
+
+.all p {
+  /*         Ölüdeniz   براجراف         */
+  padding: 50px 30px;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  color: #0c9393;
+}
+
+
+
+
+.jumbe img {
+  /*          Antalya     صورة      */
+
+  margin-left: 50px;
+  /*   margin-top:40px;  */
+  margin-right: 30px;
+  /*      margin-bottom:50px;  */
+  padding-top: 50px;
+
+  float: right;
+  width: 600px;
+  height: 400px
+}
+
+.salwa h2 {
+  color: #800000;
+
+}
+
+
+
+.play p {
+  /*       Antalya   براجراف     */
+  padding: 70px 30px;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  color: #8b0404;
+}
+
+
+
+.test img {
+  /*          صورة اول فنددق      */
+  margin-left: 50px;
+  /* 30*/
+  margin-top: 2px;
+  margin-right: 30px;
+  /*  margin-bottom:50px;  */
+  float: right;
+
+
+}
+
+.quiz p {
+  /*        براجراف اول فنددق      */
+  color: #045e04;
+  text-align: left;
+  margin-bottom: 150px;
+  margin-top: 100px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 80px;
+
+}
+
+.name img {
+  /*        صورة تانيي فندقق      */
+
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 30px;
+  /*  margin-bottom:50px;   */
+  float: right;
+}
+
+.lamia p {
+  color: #7e4006;
+  /*             براجراف تاني فندقق   */
+  text-align: left;
+  margin-bottom: 250px;
+  margin-top: 100px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 80px;
+
+
+}
+
+
+.tall img {
+  /*                 صورة تالت فندقق    */
+  margin-left: 50px;
+  margin-top: 20px;
+  /*90*/
+  margin-right: 30px;
+  /*   margin-bottom:50px; */
+  float: right;
+
+}
+
+
+.short p {
+  color: #512670;
+  /*                    براجراف تالت فندقق   */
+  text-align: left;
+  margin-bottom: 260px;
+  margin-top: 130px;
+  /*150*/
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 80px;
+
+}
+
+
+
+.family img {
+  /*           صورة  رابع فندقق        */
+  margin-left: 50px;
+  margin-top: 20px;
+  /*90*/
+  margin-right: 30px;
+  margin-bottom: 50px;
+  float: right;
+
+}
+
+.member p {
+  /*    براجراف رابع فندقق          */
+  color: #6d6d27;
+  text-align: left;
+  margin-bottom: 250px;
+  margin-top: 130px;
+  /*150*/
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 80px;
+
+
+}
+
+
+
+
+
+/*    .anime {
+                                                    margin-top: 10px;
+                                      }  
+                              
+                                     p{            
+                                                   margin-left:80px ;
+                                                
+                                
+                                         }        
+                             */
+
+
+
+
+
+
+
+
+
+/* Start gallery  */
+
+.image img {
+  width: 500px;
+  height: 400px;
+}
+
+
+.gallery {
+  padding-top: var(--main padding-top);
+  padding-bottom: var (--main padding-top);
+  position: relative;
+  display: block;
+
+}
+
+
+
+
+
+
+.rest1 img {
+  /*         كلاسس  اول صورة في المطاعم  */
+  width: 50%;
+  height: 400px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-right: 50px;
+  float: right;
+
+}
+
+.pen h2 {
+  color: #B57EDC;
+
+}
+
+
+
+.nnnn p {
+  /* براجراف  اول مطعمم */
+  color: #795791;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 80px;
+
+
+}
+
+
+.rest2 img {
+  /*         كلاسس  صورة تاني مطعم    */
+  width: 50%;
+  height: 400px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
+  float: right;
+
+}
+
+.ten h2 {
+  color: #89CFF0;
+
+}
+
+.blue p {
+  /*               براجراف تاتي مطعمم   */
+  color: #628fa3;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  word-spacing: 3px;
+  font-style: oblique;
+  margin-left: 80px;
+}
+
+
+
+.rest3 img {
+  /*              صورة تالت مطعم              */
+  width: 50%;
+  height: 400px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
+  float: right;
+}
+
+
+.null {
+  color: #E52B50;
+
+
+
+}
+
+.sky p {
+  /*         براجراف تالت مطعمم      */
+  color: #a14356;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  white-space: normal;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 80px;
+}
+
+.rest4 img {
+  width: 50%;
+  /*                     صورة رابع مطعمم          */
+  height: 400px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
+  float: right;
+
+
+}
+
+
+.lab h2 {
+  color: #808000;
+
+}
+
+.run p {
+  /*             براجراف رابع صورة       */
+  color: #83834e;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  white-space: normal;
+  word-spacing: 3px;
+  font-style: oblique;
+  margin-left: 80px;
+
+
+}
+
+.rest5 img {
+  /*             صورة خامس مطعمم                     */
+  width: 50%;
+  height: 400px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
+  float: right;
+}
+
+
+.five h2 {
+
+  color: #007FFF;
+
+}
+
+
+
+
+
+.walk p {
+  /*     براجراف خامس مطعمم   */
+  color: #278ef5;
+  padding: 50px 30px;
+  text-align: left;
+  margin-bottom: 150px;
+  font-size: large;
+  letter-spacing: normal;
+  line-height: 1.6;
+  white-space: normal;
+  word-spacing: 3px;
+  font-style: italic;
+  margin-left: 50px;
+
+}
+
+/*nadia end*/
+
+/*nada and yousif sart*/
+body.body_page {
+  background-image: url("../MEDIA/4.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* header  */
+:root {
+  --main-color: #345375;
+  --page-color: #00728d;
+}
+
+.NAV-CONTINER {
+  background-color: var(--main-color);
+  color: aliceblue;
+  padding-right: 10px;
+  padding: 0;
+  margin: -8px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+
+nav.nav_of_head {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1166px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  font-size: 1.6rem;
+}
+
+nav h3.LOGO {
+  /*Css : Head Of Company */
+  font-size: 140%;
+  border-width: 600px;
+  font-family: 'Akshar', sans-serif;
+  font-weight: bold;
+  color: #27ab83;
+  flex: 2;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  margin-left: 0px;
+}
+
+nav UL.navigation {
+  display: flex;
+  list-style-type: none;
+  /* list-style-type:none ; this code to remove the circles in list  */
+  justify-content: space-between;
+  flex: 2;
+}
+
+nav ul.navigation li a {
+  color: aliceblue;
+  text-decoration-line: none;
+}
+
+nav .navigation>li a:hover {
+  color: #27ab83;
+}
+
+.navigation .menu {
+  position: relative;
+}
+
+.navigation .menu .submenu {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 220px;
+  background-color: aliceblue;
+  padding: 10px;
+  -webkit-box-shadow: 1px 6px 6px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
+  box-shadow: 1px 6px 6px rgba(0, 0, 0, .5);
+  display: none;
+
+}
+
+.navigation .submenu li {
+  padding: 10px;
+
+}
+
+.navigation .submenu li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.navigation .menu .submenu li a:hover {
+  color: red;
+}
+
+.navigation .submenu :before {
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  height: 0;
+  width: 0;
+  position: absolute;
+  left: 30px;
+  top: -6px;
+}
+
+.navigation .menu :hover .submenu {
+  display: block;
+}
+
+/* /Css: NAVIGATION/        */
+h2.contents-Y {
+  border: 1px solid var(--page-color);
+  width: 262px;
+  color: white;
+  background-color: var(--page-color);
+  margin-top: 40px;
+  margin-bottom: 0px;
+  /* margin-top:150px;/   /*itś use to fixed header with comment one*/
+}
+
+nav.navigation_content_page {
+  border: 2px solid var(--page-color);
+  padding: 5px;
+  width: 250px;
+  line-height: 40px;
+  height: 130px;
+  margin-bottom: 50px;
+}
+
+a.Link-nav {
+  display: block;
+  text-decoration-line: none;
+  margin-left: 2px;
+  font-size: 20px;
+  font-weight: 30px;
+}
+
+/* /Css: About France/ */
+article.aboutFrance {
+  background-color: var(--page-color);
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+article.aboutFrance h1 {
+  margin: 5px;
+  padding: 3px;
+  font-size: 35px;
+  color: white;
+}
+
+article p.prag {
+  background-color: #EEE;
+  font-size: 20px;
+  margin: 10px 20px;
+  line-height: 30px;
+  padding: 3px;
+  border-bottom: 20px solid var(--page-color);
+  color: #263b8d;
+  text-transform: capitalize;
+}
+
+/* /Css: bottom To Page 2/   */
+button.to-page2,
+button.size-video,
+button.view-menuo {
+  border-style: none;
+  background-color: var(--page-color);
+  border-radius: 15px;
+  color: white;
+  padding: 7px;
+}
+
+button.size-video {
+  margin-left: 15px;
+  margin-top: 3px;
+}
+
+div.conten-video {
+  text-align: center;
+}
+
+/* /Css: About City of France/ */
+h1.suggestion {
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: rgba(41, 55, 66, 0.5);
+}
+
+h2.h2 {
+  font-size: 35px;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(36, 141, 230, 0.7);
+  margin-bottom: 0px;
+  color: rgb(36, 141, 230);
+  font-weight: 35px;
+}
+
+p.Pcontry,
+span.features {
+  font-size: 25px;
+  color: #263b8d;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 100px;
+  height: 370px;
+}
+
+p.Pcontry {
+  background-color: rgba(220, 220, 220, 0.4);
+}
+
+span.features {
+  margin-left: 40px;
+}
+
+p.Pcontry span.name-place {
+  font-size: 30px;
+  color: black;
+}
+
+.flag {
+  margin-top: 0px;
+}
+
+p.Pcontry img.photo {
+  float: right;
+  clear: both;
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 6px;
+}
+
+img.photo-rest {
+  height: 400px;
+  width: 30%;
+  margin-left: 2.3%;
+  border: 3px solid black;
+}
+
+div.photoes-rest {
+  background-color: var(--page-color);
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+p.Pcontry a {
+  text-decoration-line: none;
+  color: white;
+}
+
+/* /Css : Suggestions for places in France/ */
+ul li.listOfGarden {
+  font-weight: 40px;
+  line-height: 30px;
+  font-size: 25px;
+}
+
+p.Pcontry span.offer-garden {
+  color: #263b6d;
+  font-size: 25px;
+}
+
+h3.h3 {
+  text-decoration-line: underline;
+  margin-bottom: 0px;
+  font-size: 23px;
+  color: #263b8d;
+}
+
+/* Css : mineo */
+p.text-menuo {
+  font-size: 25px;
+  color: #263b8d;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 300px;
+}
+
+caption {
+  color: #27ab83;
+  font-size: 25px;
+}
+
+table.menuo {
+  margin-left: 14%;
+  padding: 0px;
+  border-collapse: collapse;
+  display: none;
+}
+
+th.start {
+  background-color: var(--page-color);
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  border: 2px solid var(--page-color);
+  width: 70%;
+}
+
+th.th-menuo,
+td.td-menuo,
+th.th-menuo-price {
+  background-color: rgba(220, 220, 220, 0.5);
+  font-size: 20px;
+  font-weight: 50px;
+  margin: 0px;
+  padding: 5px;
+  border: 2px solid var(--page-color);
+}
+
+th.th-menuo-price {
+  text-align: left;
+}
+
+::selection {
+  background-color: #ddd;
+  color: white;
+}
+
+/*-------------------------------------------------Css: my project 2 -------------------------------------- */
+
+body.body2 {
+  background-image: url("../MEDIA/12.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1.offerplace {
+  font-size: 30px;
+  text-decoration-line: underline;
+  /* margin-top:150px;/   /*itś use to fixed header with comment one*/
+}
+
+article h1.offer {
+  border: 2px solid var(--page-color);
+  background-color: var(--page-color);
+  color: white;
+  margin: 0px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+article ul li {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 30px;
+  margin-left: 0px;
+}
+
+article ul.ul-offer {
+  background-color: rgba(220, 220, 220, 0.5);
+  border: 2px solid var(--page-color);
+  border-top-color: 5edfff;
+  margin-top: 0px;
+}
+
+h1.name {
+  font-size: 30px;
+  text-decoration-line: underline;
+}
+
+article ul.none {
+  font-size: 20px;
+  font-weight: 60px;
+  margin-top: 0px;
+  margin-left: 90px;
+}
+
+li.ul-li-offer {
+  font-size: 22px;
+  font-weight: 200px;
+}
+
+span.rel-price {
+  color: blue;
+}
+
+/* /---------------------------------------------- About Us: div of Person ------------------------------------------/ */
+
+body.body3 {
+  background-image: url("../MEDIA/10.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.big-div {
+  border-radius: 22px;
+  margin: 70px 30px;
+  background-color: RGB(124, 56, 255);
+  width: 350px;
+  height: 400px;
+  display: inline-block;
+  margin-left: 100PX;
+}
+
+div.big-div {
+  background-color: var(--page-color);
+}
+
+.person {
+  width: 200px;
+  height: 200px;
+  margin: 30px 75px -70px;
+  border: 4px solid RGB(255, 255, 255);
+  border-radius: 170px;
+  outline: 4px solid #00828d;
+}
+
+div.content-person {
+  background-color: Rgb(250, 250, 250);
+  width: inherit;
+  height: 200px;
+  text-align: center;
+  padding-top: 80px;
+  text-transform: capitalize;
+  border-radius: 0px 0px 22px 22px;
+}
+
+p.button {
+  font-size: 22px;
+  text-transform: capitalize;
+  border: 2px solid var(--page-color);
+  border-radius: 40px;
+  background-color: var(--page-color);
+  color: white;
+  display: inline;
+  width: 50px;
+  margin: 30px;
+  padding: 10px;
+  text-align: lift;
+}
+
+a.link-person {
+  text-decoration: none;
+  color: white;
+}
+
+div.about-name {
+  background-color: #Eee;
+  width: 20%;
+  height: 70px;
+  margin: 10px;
+  padding-top: 45px;
+  font-size: 23px;
+  font-weight: 20px;
+  text-align: center;
+  display: inline;
+}
+
+.about-content p {
+  display: inline;
+  font-size: 18px;
+  font-weight: 25px;
+}
+
+table.table-yussef,
+table.table-nada {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5pxpx;
+  border-collapse: collapse;
+  display: none;
+}
+
+tr.header-table {
+  border: 2px solid var(--page-color);
+  padding: 15px;
+  margin: 5px;
+}
+
+th.th-person1,
+th.th-person2,
+th.th-person3,
+th.th-person4,
+th.th-person5 {
+  background-color: var(--page-color);
+  font-size: 20px;
+  font-weight: 20px;
+  margin: 0px;
+  padding: 15px;
+  border: 1px solid #Eee;
+  color: white;
+  text-align: left;
+}
+
+th.th-person1,
+th.th-person2,
+th.th-person3,
+th.th-person4,
+th.th-person5,
+th.th-person6 {
+  width: 250px;
+}
+
+td.td-person {
+  background-color: RGBA(230, 230, 230, 0.5);
+  font-size: 18px;
+  font-weight: 50px;
+  margin: 0px;
+  padding: 5px;
+  border: 2px solid #ccc;
+}
+
+/* -----------------NADA MOHAMED AZIZ--------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Akshar:wght@300;400&family=Roboto:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.all {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: 345375;
+}
+
+h1.h1n {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #f0f4f8;
+}
+
+h1 span {
+  color: #27ab83;
+}
+
+/* h2  {
+    color: #243b53;
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+  } */
+
+h3 {
+  color: #2b4561;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  width: 40%;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #d5d5d5;
+}
+
+/* p {
+    font-size: 1.6rem;
+    color: #345375;
+    line-height: 2;
+  } */
+
+/* Nav Section */
+.nav-container {
+  background: #334e68;
+  color: #f0f4f8;
+}
+
+.navn {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 1.6rem;
+}
+
+
+.navn .logo {
+  font-family: "Kufam", cursive;
+  font-weight: bold;
+  flex: 3;
+  color: #27ab83;
+  margin-top: 4px;
+}
+
+.navn ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex: 3.2;
+}
+
+.navn ul li a {
+  color: #f0f4f8;
+  text-decoration: none;
+}
+
+.navn .navigation li a:hover {
+  color: #27ab83;
+}
+
+.title-booking {
+  padding: 100px 200px;
+  color: azure;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.book {
+
+
+  /* height: 50px;
+    max-width: 1280px; */
+  display: flex;
+  justify-content: center;
+  background-color: #345375;
+
+  /* align-items: center; */
+
+
+}
+
+.form {
+  width: 700px;
+  background-color: #345375;
+  background-size: contain;
+
+
+}
+
+.form-text {
+  text-align: center;
+  margin: 40px, 0;
+
+}
+
+.form-text h1 span img {
+  margin: 0 10px;
+
+}
+
+.form-text h1 {
+  color: #fff;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 50px;
+  /* margin-bottom: 100px; */
+  text-shadow: 1px 1px 2px #345375, 0 0 25px #27ab83, 0 0 5px #07402f;
+
+}
+
+.form-text p {
+  color: #fff;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 30px;
+
+
+
+}
+
+.main-form {
+  text-align: center;
+}
+
+.main-form div {
+  margin: 10px 24px;
+  display: inline-block;
+  width: 300px;
+}
+
+.main-form div input {
+  width: 300px;
+  font-family: 'Akaya Telivigala', cursive;
+  background: none;
+  border: 1px solid #27ab83;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+
+}
+
+.main-form div select {
+  font-family: 'Akaya Telivigala', cursive;
+  width: 300px;
+  background: none;
+  border: 1px solid #27ab83;
+  font-size: 20px;
+  color: #fff;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+
+}
+
+.main-form div span {
+  font-family: 'Akaya Telivigala', cursive;
+  width: 300px;
+  color: #fff;
+  font-size: PX;
+}
+
+#submit {
+  width: 100%;
+  text-align: center;
+
+}
+
+#submit input {
+  font-family: 'Akaya Telivigala', cursive;
+  width: 200px;
+  background-color: #27ab83;
+
+  color: black;
+  transition: all;
+}
+
+#submit input:hover {
+  font-family: 'Akaya Telivigala', cursive;
+  width: 200px;
+  background-color: rgb(16, 16, 16);
+  color: #fff;
+}
+
+#submit input:active {
+  font-size: 19px;
+  background-color: rgb(28, 86, 42);
+  color: #fff;
+}
+
+.print {
+  border-radius: 3px;
+  margin-left: 50px;
+  margin-bottom: 3px;
+  width: 80px;
+  font-family: 'Akaya Telivigala', cursive;
+  color: rgb(20, 19, 19);
+  background-color: #27ab83;
+
+
+
+}
+
+.footer {
+  background-color: #243b53;
+  color: rgb(200, 187, 190);
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  /* margin-left: 30px; */
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: rgb(216, 201, 204);
+}
+
+.footer .social-icons a {
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+}
+
+/*------------------ nada home page----------- */
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@700&family=Tajawal:wght@400;700&display=swap");
+
+/* .all2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: "Tajawal", sans-serif;
+  background: #d9e2ec;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.h1n {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #f0f4f8;
+}
+
+.h1n span {
+  color: #27ab83;
+}
+
+.h2n {
+  color: #243b53;
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+}
+
+.h3n {
+  color: #2b4561;
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 1px #5a766e;
+}
+
+.h4n {
+  font-size: 2rem;
+  width: 40%;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #d5d5d5;
+}
+
+.pn {
+  font-size: 1.6rem;
+  color: #345375;
+  line-height: 2;
+}
+
+
+/* Nav Section */
+.nav-container {
+  background: #334e68;
+  color: #f0f4f8;
+}
+
+.nav_of_head {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 1.6rem;
+}
+
+h3 .nav_of_head .logo {
+
+  font-size: 140%;
+  border-width: 600px;
+  font-family: 'Akshar', sans-serif;
+  font-weight: bold;
+  color: #27ab83;
+  flex: 2;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  margin-left: 2px;
+
+
+}
+
+/* .nav_of_head .logo {
+  font-family: "Kufam", cursive;
+  font-weight: bold;
+  color: #27ab83;
+   font-size: 20px; 
+} */
+
+.nav_of_head ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex: 3.2;
+}
+
+.nav_of_head ul li a {
+  color: #f0f4f8;
+  text-decoration: none;
+}
+
+.nav_of_head li a:hover {
+  color: #27ab83;
+}
+
+
+/* Hero Section */
+
+.hero {
+  height: 90vh;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  right: 0;
+  background-image: linear-gradient(90deg,
+      rgba(51, 78, 104, 0.2) 0%,
+      rgba(20, 63, 92, 0.8) 20%),
+    url("../media/fabio-comparelli-uq2E2V4LhCY-unsplash.jpg");
+  background-repeat: no-repeat;
+  animation: herobg 3s ease-in;
+  background-position: center;
+}
+
+.content {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90vh;
+}
+
+.btn1 {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.75rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #243b53;
+  background: #27ab83;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #239673;
+}
+
+.btn1:active {
+  scale: 0.98;
+}
+
+/* Qualities Section */
+#qualities {
+  width: 90%;
+  max-width: 1366px;
+  margin: 4rem auto;
+  height: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.qualities-container {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding-top: 5rem;
+}
+
+.quality {
+  background: #bcccdc;
+  padding: 4rem 0;
+  width: 30%;
+  border: 10px solid #243b53;
+}
+
+.quality p {
+  text-align: center;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* About us */
+
+.about-container {
+  background: #334e68;
+  padding: 100PX;
+}
+
+.about-us {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-us .about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2 {
+  color: #d9d9d9;
+}
+
+.about-content p {
+  margin-top: 1rem;
+  width: 80%;
+  color: #d5d5d5;
+}
+
+
+/*  countries */
+.countries {
+  margin-left: 15px;
+  width: 800px;
+  border-bottom: 20px solid #334e68;
+  box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 400px;
+
+}
+
+.countries h2 {
+  margin-top: 30px;
+  color: #d0d7d0;
+  background: #334e68;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.countries li a {
+  list-style: none;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.countries ul {
+  position: relative;
+  background-color: #334e68;
+}
+
+.countries ul li {
+
+  list-style: none;
+  padding: 10px;
+  color: #d5d5d5;
+  width: 100%;
+  background: #f4f7f9;
+  box-shadow: 0 5px 25px (0, 0, 0, .1);
+}
+
+.countries ul:hover li {
+  opacity: 0.2;
+}
+
+.countries ul li:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  z-index: 100;
+  background: #d0d8de;
+  box-shadow: 0 5px 25px (0, 0, 0, .2);
+
+}
+
+.countries ul li span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 30px;
+  background: #334e68;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* cards offer */
+
+.offers {
+  width: 700%;
+}
+
+.to-hide {
+  text-align: center;
+  background-color: #345375;
+  color: rgb(10, 18, 24);
+  margin: 2% 3%;
+  right: 24%;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000000;
+  display: none;
+
+}
+
+.hiden-img img {
+  height: 30vh;
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+  position: relative;
+  bottom: 20px;
+  right: -300px;
+}
+
+.title {
+  text-shadow: 1px 1px 2px #345375, 0 0 25px #27ab83, 0 0 5px #07402f;
+  color: #fff;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+
+}
+
+.hiden-pargraph {
+  font-family: 'Akaya Telivigala', cursive;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 50px;
+  position: relative;
+  right: 50px;
+  bottom: 50px;
+
+
+}
+
+.offer-p {
+  margin-left: 4px;
+  font-size: 40px;
+  width: 40%;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #211f1f;
+  margin-top: 5px;
+}
+
+.offer-img img {
+  width: 200px;
+  margin-left: 15px;
+  margin-bottom: 7px;
+}
+
+.main-offer {
+  margin-left: 500px;
+  color: #2b4561;
+  font-size: 40px;
+  margin-bottom: 1rem;
+  text-shadow: 2px 1px #5a766e;
+
+
+}
+
+.book-know {
+
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.75rem 3rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #243b53;
+  background: #27ab83;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 20px;
+  position: relative;
+  bottom: -30px;
+
+}
+
+
+
+
+/* Contact us */
+
+.contact-us {
+  width: 90%;
+  max-width: 1366px;
+  margin: 5rem auto 0 auto;
+  height: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.form-h {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  width: 100%;
+  align-items: center;
+}
+
+.form-h .btn {
+  width: 100px;
+  text-align: center;
+}
+
+label,
+input,
+textarea,
+.btn {
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 1.5rem;
+}
+
+input,
+textarea {
+  width: 80%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.75rem 2rem;
+}
+
+.contact-us {
+  text-align: center;
+}
+
+textarea {
+  resize: vertical;
+}
+
+
+/* slider */
+.slider-container {
+
+  box-sizing: border-box;
+  margin: 80px auto;
+  width: 800px;
+  height: 250px;
+  position: relative;
+}
+
+.slider-container img {
+  position: absolute;
+  opacity: 0;
+  width: 800px;
+  height: 250px;
+  /* 
+  علشان تعمل fade ومتتنقلش على طول */
+  transition: opacity 1s;
+  z-index: 1;
+
+}
+
+/* الصور الى هتظهر */
+.slider-container img.active {
+  opacity: 1;
+
+}
+
+.slide-number {
+  position: absolute;
+  left: 350px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  z-index: 2;
+  /*  علشان يكون فوق طبقة الصورة */
+  border-radius: 6px;
+}
+
+.slider-controls {
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-controls .prev,
+.slider-controls .next {
+  background-color: #243b53;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  user-select: none;
+  width: 20%;
+}
+
+.slider-controls .prev {
+  float: left;
+}
+
+.slider-controls .next {
+  float: right;
+}
+
+.slider-controls .prev.disabled,
+.slider-controls .next.disabled {
+  background-color: #243b53;
+  cursor: no-drop;
+}
+
+.slider-controls .indicators {
+  width: 60%;
+  float: left;
+}
+
+.slider-controls .indicators ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+.slider-controls .indicators ul li {
+  display: inline-block;
+  background-color: #f6f6f6f6;
+  color: #333;
+  font-weight: bold;
+  height: 28px;
+  width: 28px;
+  border-radius: 4px;
+  margin: 0 2px;
+  line-height: 28px;
+  cursor: pointer;
+
+
+}
+
+.slider-controls .indicators ul li.active {
+  background-color: #243b53;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: #243b53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+footer p {
+  color: #d9d9d9;
+}
+
+/*nada and yousif end*/

@@ -1,0 +1,128 @@
+
+#rooma{
+                 justify-content:center;
+                 width:245px;
+                 height:300px;
+	 
+                 background:#aaaaaa; 
+                 }
+#rooma li{
+	list-style: none;}
+.image{width:400px;
+               text-align:center;
+              height:auto;}
+.trip{font-size:40px;
+            text-align:center;}
+div{
+        flex-direction:row;}
+bodyN{  
+  background-image: url(" ../media/back na.jpeg");
+  background-size: contain;
+    padding: 0px 0 0 0;
+    margin: 0;
+    }
+.navbar {
+    background: #000000;
+    
+}
+        
+.navbar ul li {
+    padding-left: 20px;
+    font-size: 23px;
+}
+.navbar ul li a{
+color: white !important;
+}
+.navbar ul li a:hover{
+    color: #27ab83 !important;
+}
+.dropdown-menu {
+    background: black;
+}
+.navbar-brand{
+    font-size: 40px;
+    color: #27ab83;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color:#27ab83 !important;
+}
+.video{
+align-items:left;
+ border-width:10px;
+ border-color:white red white green;
+ border-style:solid;
+ }
+ .button-trafeh {
+    background: transparent;
+    border: 1px solid #4c40fa;
+    border-radius: 5px;
+    color: #4c40fa;
+  }
+  .base {
+    position: relative;
+    
+  }
+  .on-base {
+    position: absolute;
+    z-index: 888;
+    top: 0;
+    left: 0;
+    text-align: left;
+    background: rgba(22, 22, 22, 0.7);
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+  }
+  .button-khalej1 {
+    background-color: #fff;
+    color: #ffc74f;
+  }
+  .stars {
+    width: 60%;
+    margin: 2rem 1rem;
+  }
+  .button-khalej2 {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    
+  }
+  .button-khalej2:hover{
+      color: black !important;
+  }
+  .base-tran {
+    position: relative;
+  }
+  .header-tran {
+    position: absolute;
+    z-index: 888;
+    bottom: 0;
+    background: rgba(22, 22, 22, 0.7);
+    height: 20%;
+    width: 100%;
+  }
+  .starss {
+    margin: 3%;
+  }
+  .button-card button {
+    background-color: #564af5;
+    width: 100%;
+  }
+.IMAGES{height:180px;
+	width:305px;}
+.IMAGES3{height:163px;
+                      width:298px;}
+.IMAGES2{width:600px;
+	  height:340px;}
+.IMAGES4{height:160px;
+      width:305px;}
+.pa{ color:black;
+        font-size:25px;}
+.hh1{color:#27ab83;}
+.images10{height:200px;
+  width:305px;}
+  #hh1 #hh2 #hh3 #hh4 #hh5 #hh6{color:#27ab83;}
+  .bodyN{
+    padding:20px ;
+  }
